@@ -1,0 +1,9 @@
+# 文档生成工具
+sphinx>=7.0.0  # Sphinx 核心库
+sphinx-rtd-theme>=2.0.0  # Read the Docs 官方主题（美观且适配移动端）
+sphinx-autodoc-typehints>=1.24.0  # 自动生成类型提示文档（Python 项目必备）
+
+# 可选依赖（根据文档需求添加）
+graphviz>=0.20.1  # 支持生成流程图（需配合 brew install graphviz）
+pandoc>=2.19.2  # 支持文档格式转换（如 Markdown 转 reStructuredText）
+m2r2>=0.3.3  # 支持在 Sphinx 中直接使用 Markdown 文件
